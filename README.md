@@ -45,4 +45,5 @@ Lab1_13
 * Ждем загрузки DOM и выполняем код: `$(function(){...})`
 * Используем localStorage в качестве хранилища: `var storage = window.localStorage`
 * С помощью jQuery selector'ов и событий устанавливаем значения в localStorage
-* Формат нашего localStorage: ключ `"Lab1"` значение `[{type: "type1", favourite: {id: 'id1', href: 'href1', imgSrc: 'imgSrc1', title: 'title1', description: 'description1'}}, ... ]` (внутри браузера в localStorage хранятся строки (ключ-значение) мы же при получении данных: `storage.getItem("Lab1")` - оборачиваем метод в `JSON.parse()`)
+* Формат нашего localStorage: ключ `"Lab1"` значение `[{type: "type1", favourite: {id: 'id1', href: 'href1', imgSrc: 'imgSrc1', title: 'title1', description: 'description1'}}, ... ]` (внутри браузера в localStorage хранятся строки (ключ-значение) мы же при получении данных: `storage.getItem("Lab1")` - оборачиваем метод в `JSON.parse()` при установке значения преобразуем JSON обратно в строку, используя: `JSON.stringify()`)
+* Для удаления новости из избранного проделываем следующее: получаем данные из localStorage по нашему ключу ("Lab1"), преобразуем полученную строку в JSON, пробегаемся по этому JSON и удаляем элемент (по id и type), удаляем из localStorage данные, преобразуем обратно в строку новое значение и записываем в хранилище.  
