@@ -1,0 +1,154 @@
+@charset "UTF-8";
+
+body {
+	color: #444;
+	font-family: Tahoma,Geneva,sans-serif;
+	font-size: 13px;
+	padding: 0px;
+	margin: 0px;
+}
+
+a {
+    color: #2b81ab;
+}
+
+a:hover {
+    color: #4d7285;
+    text-decoration: none;
+}
+
+a.active {
+    text-decoration: none;
+    color: #000;
+}
+
+.title a{
+    color: #666666;
+}
+
+.container{
+	margin-top: 30px;
+}
+
+
+.sidebar_right .block {
+    font-family: tahoma, arial;
+    padding: 15px 20px;
+    margin-bottom: 20px;
+    background: #f0f0e7;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    border-radius: 5px;
+}
+
+.menu_img{
+    float: left;
+    width: 24px;
+    height: 24px;
+    margin-right: 20px;
+}
+
+.right-menu a {
+    color: #666666;
+}
+
+.right-menu a:hover {
+    text-decoration: underline;
+}
+
+.glavnoe{
+    background: url(../img/glavnoe24.png) no-repeat 0 0;
+}
+
+.socium{
+    background: url(../img/soc24.png) no-repeat 0 0;
+}
+
+.business{
+    background: url(../img/business24.png) no-repeat 0 0;
+}
+
+.it{
+    background: url(../img/it24.png) no-repeat 0 0;
+}
+
+.footer{
+	background-color: #cccccc;
+	min-height: 50px;
+	margin-top: 20px;
+	padding-top: 20px;
+	border-top: 2px solid #999999;
+}
+
+.section-news-header{
+    margin: 0 0 20px;
+    color: #000;
+    font: normal 27px "DINCondensedWeb", "Arial Narrow", Arial;
+    text-transform: uppercase;
+    white-space: nowrap;
+}
+
+.main_menu {
+    /*color: #ce3434;*/
+    color: #000;
+    font: normal 22px "DINCondensedWeb", "Arial Narrow", Arial;
+    text-transform: uppercase;
+    white-space: nowrap;
+    margin: 0 0 20px;
+    border-bottom: 1px solid #ccc;
+    padding-bottom: 3px;
+    overflow: hidden;
+}
+
+.main_menu a{
+    margin-right: 24px;
+    display: block;
+    float: left;
+}
+
+.news_menu{
+    display: inline-block;
+    margin-right: 12px;
+}
+
+.right_menu_block{
+    font-family: tahoma, arial;
+    padding: 15px 20px;
+    margin-bottom: 20px;
+    background: #f0f0e7;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    border-radius: 5px;
+}
+
+.right-menu{
+    margin-bottom: 10px;
+    font-size: 16px;
+}
+
+.img-news{
+    width: 100%;
+    margin-top: 16px;
+}
+
+#footer{
+    height: 50px;
+    margin-top: -50px;
+}
+
+.favourite{
+    display: block;
+    float: right;
+}
+
+.not-favourite{
+    opacity: 0.4;
+}
+
+.is-favourite{
+    opacity: 1;
+}
+
+.news-title:hover{
+    color: rgb(201, 72, 28);
+}
