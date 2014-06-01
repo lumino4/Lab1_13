@@ -42,3 +42,7 @@ Lab1_13
 
 ###JavaScript/jQuery###
 ####Файл `main.js`####
+* Ждем загрузки DOM и выполняем код: `$(function(){...})`
+* Используем localStorage в качестве хранилища: `var storage = window.localStorage`
+* С помощью jQuery selector'ов и событий устанавливаем значения в localStorage
+* Формат нашего localStorage: ключ `"Lab1"` значение `[{type: "type1", favourite: {id: 'id1', href: 'href1', imgSrc: 'imgSrc1', title: 'title1', description: 'description1'}}, ... ]` (внутри браузера в localStorage хранятся строки (ключ-значение) мы же при получении данных: `storage.getItem("Lab1")` - оборачиваем метод в `JSON.parse()`)
